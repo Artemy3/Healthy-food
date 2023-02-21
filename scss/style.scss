@@ -623,3 +623,62 @@ body {
       padding: 0 20px;
    }
 }
+
+.chefs__inner {
+   padding-top: 61px;
+   padding-bottom: 30px;
+}
+
+.chefs__title {
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 74px;
+   letter-spacing: 0.2em;
+   text-transform: capitalize;
+   color: #D9D9D9;
+   background-image: url(../images/CHEFS.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   text-align: center;
+   margin-bottom: 29px;
+
+   @media (max-width: 321px) {
+      background-size: 280px;
+   }
+}
+
+.chefs__items {
+   display: flex;
+   justify-content: space-between;
+   gap: 0 30px;
+}
+
+.chefs__profile {
+   display: flex;
+   gap: 0 24px;
+   align-items: center;
+   margin-bottom: 24px;
+}
+
+.chefs__name {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   letter-spacing: -0.225px;
+   color: #FFFFFF;
+   margin-bottom: 6px;
+}
+
+.chefs__skill {
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 16px;
+   letter-spacing: -0.15px;
+   color: rgba(255, 255, 255, 0.5);
+}
+
+.chefs__images {
+   display: flex;
+   justify-content: space-between;
+   gap: 0 30px;
+}
