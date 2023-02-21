@@ -350,3 +350,137 @@ body {
    }
 
 }
+
+.work__inner {
+   padding-top: 61px;
+   padding-bottom: 30px;
+
+   @media (max-width: 768px) {
+      max-width: 750px;
+   }
+
+   @media (max-width: 321px) {
+      max-width: 300px;
+   }
+}
+
+.work__title {
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 74px;
+   letter-spacing: 0.2em;
+   text-transform: capitalize;
+   color: #D9D9D9;
+   background-image: url(../images/WORK.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   text-align: center;
+   margin-bottom: 28px;
+
+   @media (max-width: 321px) {
+      background-size: 280px;
+   }
+}
+
+.border__title {
+   border: 1px solid #34C759;
+   background: #34C759;
+   max-width: 60px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 59px;
+}
+
+.work__items {
+   display: flex;
+   justify-content: space-between;
+   gap: 0 30px;
+
+   @media (max-width: 768px) {
+      gap: 30px 30px;
+      max-width: 680px;
+      flex-wrap: wrap;
+      margin-left: 30px;
+   }
+
+   @media (max-width: 321px) {
+      flex-direction: column;
+      margin-left: 5px;
+   }
+}
+
+.work__item {
+   background: #252525;
+   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+   border-radius: 6px;
+   padding: 24px;
+   padding-bottom: 60px;
+
+   @media (max-width: 768px) {
+      max-width: 320px;
+   }
+}
+
+.work__item--first {
+   background: #34C759;
+   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+   border-radius: 6px;
+   padding: 24px;
+   padding-bottom: 42px;
+
+   @media (max-width: 768px) {
+      max-width: 320px;
+   }
+}
+
+.work__subtitle {
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 26px;
+   letter-spacing: -0.275px;
+   text-transform: capitalize;
+   color: #FFFFFF;
+   margin-bottom: 16px;
+}
+
+.work__subtitle--first {
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 26px;
+   letter-spacing: -0.275px;
+   text-transform: capitalize;
+   color: #191919;
+   margin-bottom: 16px;
+}
+
+.work__border {
+   border: 1px solid #34C759;
+   background: #34C759;
+   max-width: 58px;
+   margin-bottom: 24px;
+}
+
+.work__border--first {
+   border: 1px solid #191919;
+   background: #191919;
+   max-width: 58px;
+   margin-bottom: 24px;
+}
+
+.work__text {
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 18px;
+   letter-spacing: -0.1625px;
+   color: rgba(255, 255, 255, 0.5);
+   min-width: 207px;
+}
+
+.work__text--first {
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 18px;
+   letter-spacing: -0.1625px;
+   color: #191919;
+   min-width: 200px;
+}
