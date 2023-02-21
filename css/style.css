@@ -713,6 +713,16 @@ body {
   padding-top: 61px;
   padding-bottom: 30px;
 }
+@media (max-width: 768px) {
+  .chefs__inner {
+    max-width: 750px;
+  }
+}
+@media (max-width: 321px) {
+  .chefs__inner {
+    max-width: 300px;
+  }
+}
 
 .chefs__title {
   font-weight: 400;
@@ -741,6 +751,13 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 0 30px;
+}
+@media (max-width: 768px) {
+  .chefs__items {
+    gap: 30px 30px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .chefs__profile {
@@ -779,4 +796,9 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 0 30px;
+}
+@media (max-width: 321px) {
+  .chefs__images {
+    gap: 0 5px;
+  }
 }

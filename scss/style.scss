@@ -627,6 +627,14 @@ body {
 .chefs__inner {
    padding-top: 61px;
    padding-bottom: 30px;
+
+   @media (max-width: 768px) {
+      max-width: 750px;
+   }
+
+   @media (max-width: 321px) {
+      max-width: 300px;
+   }
 }
 
 .chefs__title {
@@ -651,6 +659,11 @@ body {
    display: flex;
    justify-content: space-between;
    gap: 0 30px;
+
+   @media (max-width: 768px) {
+      gap: 30px 30px;
+      flex-wrap: wrap;
+   }
 }
 
 .chefs__profile {
@@ -681,4 +694,8 @@ body {
    display: flex;
    justify-content: space-between;
    gap: 0 30px;
+
+   @media (max-width: 321px) {
+      gap: 0 5px;
+   }
 }
